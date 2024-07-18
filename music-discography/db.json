@@ -1,0 +1,126 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Taylor Swift",
+      "birth_year": 1989,
+      "country": "USA",
+      "genre": "Pop",
+      "views_this_year": 1500000000,
+      "top_albums": ["1989", "Reputation", "Folklore"]
+    },
+    {
+      "id": 2,
+      "name": "Ed Sheeran",
+      "birth_year": 1991,
+      "country": "UK",
+      "genre": "Pop",
+      "views_this_year": 1600000000,
+      "top_albums": ["÷", "x", "="]
+    },
+    {
+      "id": 3,
+      "name": "Ariana Grande",
+      "birth_year": 1993,
+      "country": "USA",
+      "genre": "Pop",
+      "views_this_year": 1450000000,
+      "top_albums": ["Thank U, Next", "Sweetener", "Positions"]
+    },
+    {
+      "id": 4,
+      "name": "Drake",
+      "birth_year": 1986,
+      "country": "Canada",
+      "genre": "Hip-Hop",
+      "views_this_year": 1400000000,
+      "top_albums": ["Take Care", "Scorpion", "Certified Lover Boy"]
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "name": "1989",
+      "artist": "Taylor Swift",
+      "release_year": 2014,
+      "songs": ["Welcome to New York", "Blank Space", "Style"]
+    },
+    {
+      "id": 2,
+      "name": "Reputation",
+      "artist": "Taylor Swift",
+      "release_year": 2017,
+      "songs": ["...Ready for It?", "End Game", "I Did Something Bad"]
+    },
+    {
+      "id": 3,
+      "name": "Folklore",
+      "artist": "Taylor Swift",
+      "release_year": 2020,
+      "songs": ["the 1", "cardigan", "exile"]
+    },
+    {
+      "id": 4,
+      "name": "÷ (Divide)",
+      "artist": "Ed Sheeran",
+      "release_year": 2017,
+      "songs": ["Eraser", "Castle on the Hill", "Dive"]
+    },
+    {
+      "id": 5,
+      "name": "x (Multiply)",
+      "artist": "Ed Sheeran",
+      "release_year": 2014,
+      "songs": ["One", "I'm a Mess", "Sing"]
+    },
+    {
+      "id": 6,
+      "name": "= (Equals)",
+      "artist": "Ed Sheeran",
+      "release_year": 2021,
+      "songs": ["Tides", "Shivers", "First Times"]
+    },
+    {
+      "id": 7,
+      "name": "Thank U, Next",
+      "artist": "Ariana Grande",
+      "release_year": 2019,
+      "songs": ["imagine", "needy", "NASA"]
+    },
+    {
+      "id": 8,
+      "name": "Sweetener",
+      "artist": "Ariana Grande",
+      "release_year": 2018,
+      "songs": ["raindrops (an angel cried)", "blazed", "the light is coming"]
+    },
+    {
+      "id": 9,
+      "name": "Positions",
+      "artist": "Ariana Grande",
+      "release_year": 2020,
+      "songs": ["shut up", "34+35", "motive"]
+    },
+    {
+      "id": 10,
+      "name": "Take Care",
+      "artist": "Drake",
+      "release_year": 2011,
+      "songs": ["Over My Dead Body", "Shot For Me", "Headlines"]
+    },
+    {
+      "id": 11,
+      "name": "Scorpion",
+      "artist": "Drake",
+      "release_year": 2018,
+      "songs": ["Survival", "Nonstop", "Elevate"]
+    },
+    {
+      "id": 12,
+      "name": "Certified Lover Boy",
+      "artist": "Drake",
+      "release_year": 2021,
+      "songs": ["Champagne Poetry", "Papi's Home", "Girls Want Girls"]
+    }
+  ]
+}
