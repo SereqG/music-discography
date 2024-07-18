@@ -1,5 +1,5 @@
 import { getAllMusicians } from "@/app/utils/musicians/getAllMusicians";
-import { ListComponent } from "@/components/ListComponent";
+import { ListComponent } from "@/components/lists/ListComponent";
 import Image from "next/image";
 
 export default async function Page({ params }: { params: { id: number } }) {

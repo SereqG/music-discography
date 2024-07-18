@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-import { ReactNode } from "react";
 import { List } from "rsuite";
 
 interface props {

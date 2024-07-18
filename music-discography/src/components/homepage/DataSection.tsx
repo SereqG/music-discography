@@ -1,5 +1,5 @@
-import { MusicianCard } from "../MusicianCard";
-import { AlbumCard } from "../AlbumCard";
+import { MusicianCard } from "../cards/MusicianCard";
+import { AlbumCard } from "../cards/AlbumCard";
 
 interface props {
   data: { id: number; name: string; img: string }[];
@@ -7,9 +7,8 @@ interface props {
 }
 
 export function DataSection({ data, sectionName }: props) {
-  console.log(data);
   return (
-    <div className="p-[5%]" id="allMusicians">
+    <div className="p-[5%]" id={sectionName}>
       <h2 className="font-bold text-3xl">{sectionName}</h2>
       <div className="w-full overflow-auto">
         <div className="flex gap-5">

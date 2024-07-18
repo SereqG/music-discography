@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { LinkButton } from "../buttons/LinkButton";
 
 interface props {
   data: {
@@ -9,12 +9,12 @@ interface props {
   };
 }
 
-export function AlbumCard({ data }: props) {
+export function MusicianCard({ data }: props) {
   return (
     <div className="flex flex-col w-64 shrink-0 gap-5">
       <Image
-        alt="Album cover"
-        src={`/covers/${data.id}.jpg`}
+        alt="musician photo"
+        src={`/musicians/${data.id}.jpg`}
         width={300}
         height={300}
         className="w-full"
@@ -24,12 +24,7 @@ export function AlbumCard({ data }: props) {
           <b>Name:</b> {data.name}
         </h2>
       </div>
-      <Link
-        href={`/album/${data.id}`}
-        className="p-3 border-2 border-blue-400 rounded-lg flex items-center justify-center font-bold hover:bg-blue-400"
-      >
-        More
-      </Link>
+      <LinkButton path={`/musician/${data.id}`}>More</LinkButton>
     </div>
   );
 }

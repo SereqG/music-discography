@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavbarComponent } from "@/components/navbar/NavbarComponent";
+import { HomeButton } from "@/components/buttons/HomeButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <>
           <NavbarComponent />
-          {children}
+          <div className="relative z-0">
+            <HomeButton />
+            {children}
+          </div>
         </>
       </body>
     </html>
