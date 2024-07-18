@@ -6,7 +6,7 @@
 `git clone https://github.com/SereqG/music-discography`
 
 - Access the project directory
-`cd music-discography`
+`cd music-discography/music-discography`
 
 - Install dependencies.
 `npm i`
