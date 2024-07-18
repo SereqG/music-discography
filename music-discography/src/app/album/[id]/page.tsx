@@ -1,4 +1,4 @@
-import { getAllAlbums } from "@/app/utils/albums/getAllAlbums";
+import { getAllAlbums } from "@/utils/albums/getAllAlbums";
 import { ListComponent } from "@/components/lists/ListComponent";
 import Image from "next/image";
 
