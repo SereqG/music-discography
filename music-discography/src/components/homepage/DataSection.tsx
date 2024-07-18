@@ -1,6 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import { MusicianCard } from "../MusicianCard";
 import { AlbumCard } from "../AlbumCard";
 
